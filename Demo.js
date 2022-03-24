@@ -14,10 +14,10 @@ inquirer                    // It take the values an object
   .then(function(ans) {
     if(ans.selection=='choice1')
     {
-        console.log("choice 1 is selected");
+        console.log("choice one is selected ");
     }
     else
     {
-        console.log("choice 2 is selected");
+        console.log("choice two is selected");
     }
   })
