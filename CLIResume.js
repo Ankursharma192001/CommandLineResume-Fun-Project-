@@ -14,7 +14,7 @@ inquirer                    // It take the values an object
   .prompt([
     {
      type:"list",                                        // type of the data dispplayed in command line 
-     name:"selection",                                   // it keepp the tarck of the selected choice
+     name:"selection",                                   // it keep the track of the selected choice
      choices:["About","Skills","academics","Projects"], // choice is for choice 
     }
   ])
